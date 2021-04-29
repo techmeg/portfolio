@@ -46,7 +46,7 @@ ul {
     text-decoration: none;
 }
 
-.nav-item a:focus, .nav-item a:hover {
+.nav-item a:focus, .nav-item a:hover, .image-label:hover, image-label:focus {
     background-color: var(--accent-color);
     color: var(--accent-bg-color);
 }
@@ -142,6 +142,11 @@ h2 {
     text-align: center;
     text-decoration: none;
     width: 200px;
+}
+.image-label {
+    background: transparent;
+    padding: .5rem;
+    text-align: center;
 }
 .contact-icons {
     align-items: center;
