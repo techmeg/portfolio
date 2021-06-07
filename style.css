@@ -47,7 +47,7 @@ ul {
 }
 
 .project-tile a {
-    background: transparent;
+    background: inherit;
     padding: 8rem 0 0;
     text-decoration: none;
 }
@@ -141,6 +141,7 @@ h2 {
     height: auto;
 }
 .project-tile img {
+    display: block;
     object-fit: cover;
     width: 100%;
 
