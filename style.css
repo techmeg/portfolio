@@ -46,9 +46,24 @@ ul {
     text-decoration: none;
 }
 
-.nav-item a:focus, .nav-item a:hover, .image-label:hover, image-label:focus {
+.project-tile a {
+    background: transparent;
+    padding: 8rem 0 0;
+    text-decoration: none;
+}
+.image-label {
+    padding: .5rem 0;
+    text-align: center;
+}
+
+.nav-item a:focus, .nav-item a:hover, .image-label:hover, .image-label:focus {
     background-color: var(--accent-color);
     color: var(--accent-bg-color);
+}
+
+#profile-link:hover, #profile-link:focus {
+    background-color: var(--accent-bg-color);
+    color: var(--accent-color); 
 }
 /****** navbar large screens *****/
 @media (min-width: 768px) {
@@ -143,11 +158,7 @@ h2 {
     text-decoration: none;
     width: 200px;
 }
-.image-label {
-    background: transparent;
-    padding: .5rem;
-    text-align: center;
-}
+
 .contact-icons {
     align-items: center;
     display: flex;
